@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto',sans-serif;
+    scroll-behavior: smooth;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+header{
+    background-color: gray;
+    background: linear-gradient(rgba(26, 25, 25, 0.6));
+
+}
+.card{
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+footer{
+    background-color: #343131;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.skill-circle{
+    width: 100px;
+    height: 100px;
+    /* color: white; */
+    display: flex;
+    /* background-color: #f3b50a; */
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 50%; */
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+}
+
+
