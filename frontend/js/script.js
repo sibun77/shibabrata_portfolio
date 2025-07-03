@@ -18,7 +18,8 @@ function handleForm(e) {
         return;
     }
 
-    fetch('http://localhost:5000/api/contact', {
+    const backendurl="https://shibabrata-contactme-backend.onrender.com/contact"
+    fetch(backendurl, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
