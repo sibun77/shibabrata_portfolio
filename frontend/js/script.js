@@ -18,7 +18,7 @@ function handleForm(e) {
         return;
     }
 
-    const backendurl="https://shibabrata-contactme-backend.onrender.com/contact"
+    const backendurl="https://shibabrata-contactme-backend.onrender.com/api/contact"
     fetch(backendurl, {
         method: 'POST',
         headers: {
