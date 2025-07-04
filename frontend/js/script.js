@@ -1,11 +1,9 @@
 function handleForm(e) {
     e.preventDefault();
-    console.log("Form submitted!");
     const userName = document.getElementById('name').value;
     const userEmail = document.getElementById('email').value;
     const userMessage = document.getElementById('message').value;
 
-    console.log({ userName, userEmail, userMessage });
 
     const responseMessageDiv = document.getElementById('formResponseMessage');
 

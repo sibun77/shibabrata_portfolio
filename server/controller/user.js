@@ -17,11 +17,11 @@ const userMessageController = async (req, res) => {
         });
         await newMessage.save();
 
-        console.log("Message saved to DB:", newMessage);
+        // console.log("Message saved to DB:", newMessage);
 
         res.status(200).json({ message: "Successfully sent message." });
     } catch (error) {
-        console.error("Error saving message:", error); 
+        // console.error("Error saving message:", error); 
         res.status(501).json({ message: "Internal server error", error: error.message });
     }
 }

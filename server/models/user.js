@@ -28,8 +28,6 @@ const userSchema = new Schema({
         type: Date,
         default: Date.now 
     }
-}, {
-    timestamps: true 
 });
 
 module.exports = model("UserMessage", userSchema);

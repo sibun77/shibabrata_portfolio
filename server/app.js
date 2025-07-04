@@ -29,7 +29,7 @@ app.listen(PORT,() => {
     console.log("Running on port ",PORT)
  })
 
- process.on('SIGINT', async () => {
+process.on('SIGINT', async () => {
     console.log('\nServer shutting down...');
     await mongoose.disconnect();
     console.log('MongoDB Mongoose connection closed.');
