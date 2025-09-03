@@ -23,11 +23,7 @@ const userSchema = new Schema({
     isResponsed: {
         type: Boolean,
         default: false
-    },
-    date: {
-        type: Date,
-        default: Date.now 
     }
-});
+},{ timestamps: true });
 
 module.exports = model("UserMessage", userSchema);
